@@ -68,7 +68,7 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a href="{{ route('profile.edit',['user'=>Auth::user()->id ]) }}" class="dropdown-item">Edit Profile</a>
+                                    <a href="{{ route('profile.edit',['user'=>Auth::user()->id ]) }}" class="dropdown-item">Sửa Profile</a>
 
                                     @if(Auth::user()->role == 'Customer')
                                     <a href="{{ route('order.show',['user'=>Auth::user()->id]) }}" class="dropdown-item">Purchase History</a>

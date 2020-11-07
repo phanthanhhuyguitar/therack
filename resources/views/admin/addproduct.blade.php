@@ -86,7 +86,7 @@
 
             <div class="col-12">
                 <div class="form-group">
-                    <label for="image" class="">Product Image</label>
+                    <label for="image" class="">Ảnh</label>
                     <input type="file" class="form-control" id="image" name="image">
                     @error('image')
 
